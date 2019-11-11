@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <attr name="icon_color" format="color"/>
+    <attr name="card_color" format="color"/>
+    <attr name="controls_panel_stroke" format="color"/>
+
+    <!-- LIGHT THEME -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="icon_color">@android:color/black</item>
+        <item name="card_color">@android:color/white</item>
+        <item name="controls_panel_stroke">@color/gray_50</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!-- INVERTED THEME -->
+    <style name="AppThemeInverted" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="icon_color">@android:color/white</item>
+        <item name="card_color">@android:color/black</item>
+        <item name="controls_panel_stroke">@color/gray_900</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!-- Indicator text style -->
+
+    <!-- Indicator thumb text style -->
+
+    <!-- This will set the fade in animation on all the activities by default -->
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <!-- SeekBar style -->
+
+    <!-- Style for color theme option -->
+
+    <!-- Style for search bar -->
+
+    <!-- Style for search view -->
+</resources>

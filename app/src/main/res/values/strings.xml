@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Song Bank</string>
+    <string name="bad_id">Play a song first!</string>
+    <string name="playing_song" translatable="false">&lt;b>%1s&lt;/b>&lt;br/>%2s</string>
+    <string name="error_unknown">Something went wrong! :(</string>
+    <string name="retry">Retry</string>
+    <string name="post_error">Something went wrong! :(</string>
+
+    <!-- Preferences keys -->
+</resources>
